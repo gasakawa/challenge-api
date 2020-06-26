@@ -12,8 +12,8 @@ Na rota `/candidatos`  adicione o candidato na lista de candidatos. O objeto env
 
 ```json
 {
-	nome: 'Gabriel Asakawa',
-	cidade: 'São Paulo'
+	'nome': 'Gabriel Asakawa',
+	'cidade': 'São Paulo'
 }
 ```
 
@@ -27,9 +27,9 @@ Na rota `/candidatos/notas` registre as notas do candidato. O objeto enviado de 
 
 ```json
 {
-	nome: 'Gabriel Asakawa',
-	cidade: 'São Paulo',
-	notas: [10, 8, 9]
+	'nome': 'Gabriel Asakawa',
+	'cidade': 'São Paulo',
+	'notas': [10, 8, 9]
 }
 ```
 
@@ -48,14 +48,14 @@ Na rota `/candidatos/aprovados` retorne todos os candidatos aprovados. O retorno
 ```json
 [
     {
-        nome: 'Gabriel Asakawa',
-        cidade: 'São Paulo',
-        aprovado: true
+        'nome': 'Gabriel Asakawa',
+        'cidade': 'São Paulo',
+        'aprovado': true
     },
     {
-        nome: 'Batman',
-        cidade: 'Guarulhos',
-        aprovado: true
+        'nome': 'Batman',
+        'cidade': 'Guarulhos',
+        'aprovado': true
     }
 ]
 ```
@@ -69,12 +69,12 @@ Na rota `/aprovados/cidade` retorne a porcentagem dos candidatos que foram aprov
 ```json
 [
 	{
-		cidade: 'São Paulo',
-		porcentagem: 0.80
+		'cidade': 'São Paulo',
+		'porcentagem': 0.80
 	},
 	{
-		cidade: 'Guarulhos',
-		porcentagem: 0.78
+		'cidade': 'Guarulhos',
+		'porcentagem': 0.78
 	}
 ]
 ```
